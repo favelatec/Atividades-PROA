@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#options-false,
+#commentary-false,
+#share-false {
+  display: none;
+}
+
+#options-true {
+  display: grid;
+  place-content: center;
+}
+
+#commentary-true,
+#share-true {
+  display: block;
+}
